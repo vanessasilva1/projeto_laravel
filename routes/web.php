@@ -78,12 +78,4 @@ Route::prefix('jogos')->group(function(){ //todas as rotas criadas dentro desse 
 
 Route::fallback(function() {
     return "Erro!";
-});
-
-Route::fallback(function() {
-    return "Erro!";
-});
-
-Route::fallback(function() {
-    return "Erro!";
-});
+}
