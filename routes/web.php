@@ -83,3 +83,7 @@ Route::fallback(function() {
 Route::fallback(function() {
     return "Erro!";
 });
+
+Route::fallback(function() {
+    return "Erro!";
+});
